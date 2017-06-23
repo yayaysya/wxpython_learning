@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu>
+    <File name="文件">
+        <Open bind="OnFileMenuOpen">打开</Open>
+        <Save bind="OnFileMenuSave">保存</Save>
+        <SaveAs bind="OnFileMenuSaveAs">另存为</SaveAs>
+        <Exit bind="OnFileMenuExit">退出</Exit>
+    </File>
+
+    <Edit name="编辑">
+        <Colour bind="OnEditMenuColor">颜色</Colour>
+    </Edit>
+
+    <About name="关于">
+        <Author bind="OnHelpMenuAbout">作者</Author>
+    </About>
+</menu>
